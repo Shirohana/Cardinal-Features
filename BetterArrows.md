@@ -31,14 +31,12 @@
 ---
 #### 新合成公式
 
-> TODO: [img]
-
 ##### 藥箭合成
 
-> 箭矢: `8` --> `4`
-> 
-> 產物: `8` --> `4`
-> 
+> ![recipe-tipped-arrows]
+>
+> 調整合成公式，改由一般藥水、燧石、骨灰、四支箭矢合成
+>
 > 類型為「持續」的藥箭，持續時間調整為原來的 `2` 倍
 
 ---
@@ -121,6 +119,8 @@
 - [Minecraft - 藥水](http://minecraft-zh.gamepedia.com/%E8%8D%AF%E6%B0%B4)
 - [Minecraft - 噴濺藥水](http://minecraft-zh.gamepedia.com/%E5%96%B7%E6%BA%85%E8%8D%AF%E6%B0%B4)
 - [Minecraft - 滯留藥水](http://minecraft-zh.gamepedia.com/%E6%BB%9E%E7%95%99%E8%8D%AF%E6%B0%B4)
+
+[recipe-tipped-arrows]: recipes/better-arrows/tipped-arrows.gif "new TippedArrow recipe"
 
 [heart]: status/heart.png "Heart"
 [half_heart]: status/half-heart.png "Half heart"
