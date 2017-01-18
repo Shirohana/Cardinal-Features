@@ -1,4 +1,4 @@
-#BetterArrows v0.1
+#BetterArrows v0.2
 
 `Weapon` `Improvement` `Arrow` `TippedArrow`
 
@@ -49,43 +49,67 @@
 > __藥箭原始效果__
 > > 藥箭新特性
 
-###### 回復之箭 ![arrow-regen] - 持續
+##### 回復之箭 ![arrow-regen] - 持續
+> > 短時間之內獲得額外強化效果
+>
+> __回復 (0:05) --> (0:11)__
+> > 額外獲得 (+1.5 生命/秒)，持續 2 秒 (![heart]![half_heart]/2s)
+> >
+> > 13 秒內回復 6 (![heart]![heart]![heart]) 生命
+>
+> __回復 II (0:02) --> (0:05)__
+> > 額外獲得 (+3.0 生命/秒)，持續 2 秒 (![heart]![heart]![heart]/2s)
+> >
+> > 7 秒內回復 9 (![heart]![heart]![heart]![heart]![half_heart]) 生命
+>
+> __回復 (0:11) --> (0:22)__
+> > 額外獲得 (+1.5 生命/秒)，持續 4 秒 (![heart]![heart]![heart]/4s)
+> >
+> > 26 秒內回復 12 (![heart]![heart]![heart]![heart]![heart]![heart]) 生命
+
 ###### 迅捷之箭 ![arrow-speed] - 持續
 ###### 抗火之箭 ![arrow-fire-resistance] - 持續
 ##### 治療之箭 ![arrow-instant-heal] - 立即
-> > 若目標為不死生物，擊中時將造成與治療量相等的傷害
+> > 依照弓的 `強力` 等級以及 `蓄力時間` 獲得額外治療量  
+> > 若目標為不死生物，擊中時造成 (+1.5 治療量) 傷害
 >
 > __立即治療 (![heart])__
-> > 基礎治療量 3 (![heart]![half_heart])
+> > 基礎治療量 2 (![heart])
 > >
-> > 依照弓的 `強力` 等級以及蓄力時間獲得額外治療量 1 (![half_heart]) ~ 5 (![heart]![heart]![half_heart])  
-> > `火焰` 附魔能提升 2 (![heart]) 額外治療量
+> > _拉滿弓_ 時獲得額外 2 (![heart]) ~ 5 (![heart]![heart]![half_heart]) 治療量  
+> > `火焰` 附魔提升 2 (![heart]) 額外治療量
 >
 > __立即治療 II (![heart]![heart])__
-> > 基礎治療量 6 (![heart]![heart]![heart])
+> > 基礎治療量 4 (![heart]![heart])
 > >
-> > 依照弓的 `強力` 等級以及蓄力時間獲得額外治療量 2 (![heart]) ~ 11 (![heart]![heart]![heart]![heart]![heart]![half_heart])  
-> > `火焰` 附魔能提升 4 (![heart]![heart]) 額外治療量
+> > _拉滿弓_ 時獲得額外 4 (![heart]![heart]) ~ 11 (![heart]![heart]![heart]![heart]![heart]![half_heart]) 治療量  
+> > `火焰` 附魔提升 4 (![heart]![heart]) 額外治療量
 
 ###### 夜視之箭 ![arrow-night-vision] - 持續
 ###### 力量之箭 ![arrow-strength] - 持續
 ###### 跳躍提升之箭 ![arrow-jump] - 持續
 ###### 隱形之箭 ![arrow-invisibility] - 持續
 ##### 劇毒之箭 ![arrow-poison] - 持續
-> > 現在會依照弓的 `強力` 等級立即造成 2 (![heart]) ~ 6 (![heart]![heart]![heart]) 的穿透傷害（不計蓄力時間）  
+> > 依照弓的 `強力` 等級以及 `蓄力時間` 造成穿透傷害  
 > > 對不死生物仍能造成穿透傷害，但無法使其中毒
+>
+> __中毒 (0:05) --> (0:11)__ & __中毒 (0:11) --> (0:22)__
+> > _拉滿弓_ 時造成 2 (![heart]) ~ 5 (![heart]![heart]![half_heart]) 穿透傷害
+>
+> __中毒 II (0:02) --> (0:05)__
+> > _拉滿弓_ 時造成 3 (![heart]![half_heart]) ~ 7 (![heart]![heart]![heart]![half_heart]) 穿透傷害
 
 ###### 虛弱之箭 ![arrow-weakness] - 持續
 ###### 緩速之箭 ![arrow-slowness] - 持續
 ##### 傷害之箭 ![arrow-instant-damage] - 立即
-> > 將繼承原有的傷害  
+> > 繼承原有傷害，並依照弓的 `強力` 等級以及 `蓄力時間` 獲得額外傷害  
 > > 若目標為不死生物，額外傷害轉為傷害減免，當總傷害小於零將回復其生命
 >
 > __立即傷害 ( ![heart]![half_heart] )__
-> > 調整傷害增量為 5 (![heart]![heart]![half_heart])
+> > _拉滿弓_ 時獲得額外 2 (![heart]) ~ 5 (![heart]![heart]![half_heart]) 傷害
 >
 > __立即傷害 II ( ![heart]![heart]![heart] )__
-> > 調整傷害增量為 9 (![heart]![heart]![heart]![heart]![half_heart])
+> > _拉滿弓_ 時獲得額外 4 (![heart]![heart]) ~ 11 (![heart]![heart]![heart]![heart]![heart]![half_heart]) 傷害
 
 ##### 水下呼吸之箭 ![arrow-water-breathing] - 持續
 > > 擊中時恢復已損失的氧氣槽
